@@ -1,0 +1,27 @@
+{
+  "name": "pingroom-starter-rate-limit-replay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Collect declared token-bucket parameters with PingRoom and replay a fixed request trace using exact credits.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/cli.js run",
+    "connect": "node src/cli.js connect",
+    "inspect": "node src/cli.js inspect",
+    "status": "node src/cli.js status",
+    "report": "node src/cli.js report",
+    "find-id": "node src/cli.js find",
+    "recover": "node src/cli.js recover",
+    "demo": "node src/demo.js",
+    "test": "node --test",
+    "validate": "node src/cli.js validate",
+    "export-analysis": "node src/cli.js export-analysis"
+  },
+  "dependencies": {
+    "@pingroom/sdk": "0.8.0"
+  },
+  "license": "MIT"
+}

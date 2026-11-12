@@ -1,0 +1,33 @@
+{
+  "traceId": "paper-preview",
+  "title": "Preview request trace",
+  "context": "Offline preview requests; event costs use policy tokens.",
+  "target": "Declared preview-service policy",
+  "events": [
+    {
+      "id": "first",
+      "atMs": 0,
+      "cost": 3
+    },
+    {
+      "id": "second",
+      "atMs": 250,
+      "cost": 1
+    },
+    {
+      "id": "third",
+      "atMs": 500,
+      "cost": 1
+    },
+    {
+      "id": "fourth",
+      "atMs": 500,
+      "cost": 2
+    },
+    {
+      "id": "fifth",
+      "atMs": 2000,
+      "cost": 2
+    }
+  ]
+}
